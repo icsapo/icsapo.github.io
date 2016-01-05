@@ -1,21 +1,29 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title           : "I'm Glad You Asked"
+email           : your-email@domain.com
+description     : "This is the description."
+baseurl         : "" # the subpath of your site, e.g. /blog
+url             : "http://icsapo.github.io" # the base hostname & protocol for your site
 
-# Build settings
-markdown: kramdown
+# Author/contact
+twitter_username: icsapo
+github_username:  icsapo
+
+
+# Pagination (http://jekyllrb.com/docs/pagination)
+# - Add jekyll-paginate to gems.
+paginate        : 5                     # max number of posts per page
+#paginate_path   : "/page:num"           # after the first index.html pagination pages go
+                                         # under this path (for example, page2/index.html)
+
+# Permalinks (http://jekyllrb.com/docs/permalinks)
+permalink       : /:year/:title
+
+# Markdown
+markdown        : kramdown
+
+# Gems
+gems            : [jekyll-paginate, jekyll-gist]
+
+# Sass
+# - The sass_dir variable defaults to _sass, so there is no need to define it here.

@@ -4,23 +4,30 @@
 @charset "utf-8";
 
 
-
-// Our variables
+// Fonts
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+//$base-font-family: "Calluna Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+//$base-font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+// Spacing
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// Colors
+$text-color:                    #6a5c5e;
+$background-color:              #fff;
+$brand-color-red:               #c52d2f;
+$brand-color-dark-gray:         #363841;
+$header-color:                  darken($text-color, 10%); 
+$link-color:                    $brand-color-red;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:            #828282;
+$grey-color-light-40:   lighten($grey-color, 40%);
+$grey-color-light-20:   lighten($grey-color, 20%);
+$grey-color-dark:       darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
@@ -48,6 +55,8 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "footer",
         "layout",
+        "post",
         "syntax-highlighting"
 ;

@@ -1,0 +1,94 @@
+// Posts and pages
+//
+// Each post is wrapped in `.post` and is used on default and post layouts. Each
+// page is wrapped in `.page` and is only used on the page layout.
+
+.page,
+.post {
+    margin-bottom: 4em;
+}
+
+// Blog post or page title
+.page-title,
+.post-title,
+.post-title a {
+    color: $header-color;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0 0 1rem 0; // top right bottom left
+}
+
+.post-title a:hover {
+    color: $link-color;
+    text-decoration: none;
+}
+
+.page-title,
+.post-title {
+    margin-top: 0;
+    
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-meta {
+    font-size: $base-font-size;
+    color: $grey-color-light-20;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
