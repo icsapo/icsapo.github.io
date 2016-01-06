@@ -3,6 +3,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Fonts using TypeKit API -->
+  <script src="https://use.typekit.net/hjh4ldy.js"></script>
+  <script>try{Typekit.load({ async: false });}catch(e){}</script>
+
+  <!-- Fonts using WebFontLoader API -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+  <script>WebFont.load({ google: {families: ['Damion']} });</script>
+<!--  <script>WebFont.load({ typekit: {id: 'hjh4ldy'} });</script> -->
+
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
