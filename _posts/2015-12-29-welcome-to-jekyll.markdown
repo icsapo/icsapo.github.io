@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Singature"
+title:  "The Signature"
 date:   2015-12-29 18:03:27 -0500
 categories: jekyll update
 ---
