@@ -13,10 +13,10 @@
 .post-title,
 .post-title a {
     color: $header-color;
-    font-size: 2rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 1;
+    font-size: $post-title-font-size;
+    font-weight: $post-title-font-weight;
+    letter-spacing: $post-title-font-spacing;
+    line-height: $post-title-line-height;
     margin: 0 0 1rem 0; // top right bottom left
 }
 
