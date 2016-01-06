@@ -18,6 +18,7 @@
     letter-spacing: $post-title-font-spacing;
     line-height: $post-title-line-height;
     margin: 0 0 1rem 0; // top right bottom left
+    text-rendering: optimizeLegibility;
 }
 
 .post-title a:hover {
