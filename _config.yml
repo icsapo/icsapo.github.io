@@ -1,0 +1,3 @@
+# GitHub Pages serves this repo's root as icsapo.github.io. Only the two pages are the site; the Daybook project
+# files around them (README, map, tickets, agent notes, data) stay in the repo and off the site (2026-09-24).
+exclude: [README.md, map.md, issues, agent, data, tools, docs, work, bin, .claude, CLAUDE.md]
