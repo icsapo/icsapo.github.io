@@ -7,5 +7,5 @@
 <!-- one paragraph: what this is, for someone who does not know the collection -->
 
 The public home and privacy pages of the Daybook Google OAuth app, served by GitHub Pages at
-https://icsapo.github.io/. `index.html` and `privacy.html` are the site; `_config.yml` keeps every other file here off
-it. The repo is public: nothing private is ever committed (the pre-commit scan checks).
+https://icsapo.github.io/. `docs/index.html` and `docs/privacy.html` are the site; Pages publishes `docs/` only, so nothing
+else here reaches it. The repo is public: nothing private is ever committed (the pre-commit scan checks).
