@@ -10,7 +10,7 @@ itself alone; nothing in it reads the index at run time.
   out of scope. `issues/NN-name.md` are the tickets (`issues/_template.md` is the format); the index's Today page
   reads both. Session start: read the map and the open tickets. Session end: the decision on the map, the ticket
   marked, the note's State and Log updated.
-- A commit or a map decision that belongs to a ticket names it: "… (ticket 24)" in the commit subject, "ticket
+- A commit or a map decision that belongs to a ticket names it: "… (ST-24)" in the commit subject, "ticket
   [24](issues/24-….md)" in the decision. A ticket from a burst of work says `Part of: NN`, the ticket that started
   it; the project page groups them under it (`…/data/status/index.html#t24`).
 - The root is the same everywhere: `README.md`, `map.md`, `issues/`, `agent/` (this file, `skills/`), `tools/`
