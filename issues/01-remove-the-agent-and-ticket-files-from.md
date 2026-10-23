@@ -85,3 +85,7 @@ commits) can keep serving the old blob content for a while after a force-push; a
 it sooner if that matters here.
 
 ## Decision
+
+## Progress
+
+- 2026-10-23: the user parked it for a calmer moment (b)
